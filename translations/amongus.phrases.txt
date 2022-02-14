@@ -1,0 +1,416 @@
+"Phrases"
+{
+	"imposters disconnected"
+	{
+		"en"	"All Imposters have disconnected, Crewmates win!"
+	}
+
+	"crewmates disconnected"
+	{
+		"en"	"All Crewmates have disconnected, Imposters win!"
+	}
+
+	"door is locked"
+	{
+		"en"	"Door is now locked for 10 seconds!"
+	}
+
+	"reactor meltdown stopped"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has stopped the Reactor meltdown."
+	}
+
+	"communications fixed"
+	{
+		"#format"	"{1:N}"
+		"en"		"{H1}{1} {default}has fixed communications."
+	}
+
+	"o2 fixed"
+	{
+		"#format"	"{1:N}"
+		"en"		"{H1}{1} {default}has fixed O2."
+	}
+
+	"lights fixed"
+	{
+		"#format"	"{1:N}"
+		"en"		"{H1}{1} {default}has fixed the lights."
+	}
+
+	"not assigned task"
+	{
+		"en"	"You are not assigned to do this task."
+	}
+
+	"all tasks completed"
+	{
+		"en"	"Crewmates have completed all tasks, Crewmates win!"
+	}
+
+	"has called a meeting"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has called a meeting!"
+	}
+	
+	"has found a body"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has found a body!"
+	}
+
+	"reactors under meltdown"
+	{
+		"en"	"Reactors are now under meltdown!"
+	}
+
+	"lights are off"
+	{
+		"en"	"Lights are now off!"
+	}
+
+	"communications disabled"
+	{
+		"en"	"Communications have been disabled!"
+	}
+
+	"o2 depleted"
+	{
+		"en"	"Oxygen is being depleted!"
+	}
+
+	"current role"
+	{
+		"#format"	"{1:s}"
+		"en"	"Current Role: {H1}{1}"
+	}
+
+	"invalid role specified"
+	{
+		"#format"	"{1:s}"
+		"en"	"Specified role invalid, please choose the following: {H1}{1}"
+	}
+
+	"role updated"
+	{
+		"#format"	"{1:s}"
+		"en"	"You have updated your role to: {H1}{1}"
+	}
+
+	"target role updated"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"	"You have updated {H2}{1}{default}'s role to: {H1}{2}"
+	}
+	
+	"admin role updated"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"	"{H2}{1} has updated your role to: {H1}{2}"
+	}
+
+	"game owner set by admin"
+	{
+		"#format"	"{1:N},{2:N}"
+		"en"	"{H1}{1} {default}has set the game owner to: {H1}{2}"
+	}
+
+	"game owner removed"
+	{
+		"#format"	"{1:N},{2:N}"
+		"en"	"{H1}{1} {default}has removed game ownership from {H1}{2}{default}."
+	}
+
+	"admin respawned dead players"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has respawned all dead players on teams."
+	}
+
+	"admin ejection"
+	{
+		"#format"	"{1:N},{2:N}"
+		"en"	"{H1}{1} {default}has ejected {H1}{2} {default}into space!"
+	}
+
+	"no command access"
+	{
+		"en"	"You do not have access to this command."
+	}
+
+	"match manually started"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has started the match."
+	}
+
+	"mark set"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"	"Name {H1}{1} {default}set for Navmesh ID {H2}{2}{default}."
+	}
+
+	"task assigned maually"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"	"{H2}{1} {default}has assigned you the task: {H1}{2}"
+	}
+
+	"marks editor toggle"
+	{
+		"#format"	"{1:s}"
+		"en"	"Marks Editor: {H2}{1}"
+	}
+
+	"marks painting disabled"
+	{
+		"en"	"Mark painting has been disabled."
+	}
+
+	"marks painting enabled"
+	{
+		"#format"	"{1:s}"
+		"en"	"Painting areas of movement for: {1}"
+	}
+
+	"imposter gained"
+	{
+		"en"	"You are an {H1}IMPOSTER{default}!"
+	}
+
+	"list imposters"
+	{
+		"#format"	"{1:s}"
+		"en"	"Imposters this match: {H1}{1}"
+	}
+
+	"brief description"
+	{
+		"#format"	"{1:s}"
+		"en"	"Brief Description: {H2}{1}"
+	}
+
+	"denied settings change not game owner"
+	{
+		"en"	"You are not currently the game owner, you aren't allowed to change game settings."
+	}
+
+	"game settings reset"
+	{
+		"en"	"All of your game settings have been reset to default."
+	}
+
+	"change game setting"
+	{
+		"#format"	"{1:s}"
+		"en"	"Please type in chat the new value for key '{1}':"
+	}
+
+	"denied settings change match is live"
+	{
+		"en"	"You are not allowed to change settings while the match is live."
+	}
+
+	"voting while dead"
+	{
+		"en"	"You are not allowed to vote while dead."
+	}
+
+	"meeting not active"
+	{
+		"en"	"No meeting is currently active."
+	}
+
+	"voted themself"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}voted for {H2}Themself!"
+	}
+
+	"voted to skip"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}voted to Skip!"
+	}
+
+	"voted against"
+	{
+		"#format"	"{1:N},{2:N}"
+		"en"	"{H1}{1} {default}voted for {H2}{2}{default}!"
+	}
+
+	"ejected confirm"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"	"{H1}{1} {default}has been ejected! They were {H2}{2}{default}an Imposter!"
+	}
+
+	"ejected"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has been ejected!"
+	}
+
+	"imposters left win"
+	{
+		"en"	"Imposters are the only ones left, Imposters win!"
+	}
+
+	"imposters equal win"
+	{
+		"en"	"There's an equal amount of crewmates to Imposters, Imposters win!"
+	}
+
+	"crewmates win imposters dead"
+	{
+		"en"	"There are no more Imposters alive, Crewmates win!"
+	}
+
+	"commands in console"
+	{
+		"en"	"Commands with descriptions are also listed in console."
+	}
+
+	"admin played intro"
+	{
+		"#format"	"{1:N}"
+		"en"	"{H1}{1} {default}has played the intro manually."
+	}
+
+	//Errors
+	"error time lock all doors"
+	{
+		"#format"	"{1:i}"
+		"en"	"Please wait {H2}{1} {default}seconds before locking all doors again."
+	}
+
+	"error time execution"
+	{
+		"#format"	"{1:.2f}"
+		"en"	"You must wait {H1}{1} {default}seconds before executing another person."
+	}
+
+	"error no meeting while sabotage"
+	{
+		"en"	"You cannot call a meeting while a sabotage is active."
+	}
+
+	"error maximum emergencies reached"
+	{
+		"en"	"Maximum number of emergency meetings reached!"
+	}
+
+	"error action disabled"
+	{
+		"en"	"This action is currently disabled, not finished yet."
+	}
+
+	"error not assigned task"
+	{
+		"en"	"You are not assigned to do this task."
+	}
+
+	"error not allowed to type"
+	{
+		"en"	"You are not allowed to type right now."
+	}
+
+	"error time meeting wait"
+	{
+		"#format"	"{1:.2f}"
+		"en"	"You must wait {H1}{1} {default}seconds to call another meeting."
+	}
+
+	"error time sabotage cooldown"
+	{
+		"#format"	"{1:i}"
+		"en"	"Please wait {H2}{1} {default}seconds before using another sabotage."
+	}
+
+	"error intro already active"
+	{
+		"en"	"Intro is already being played, please wait for it to end."
+	}
+
+	"error eureka teleport blocked"
+	{
+		"en"	"You are not allowed to use the Eureka Effect's teleport."
+	}
+
+	"error no late loads allowed"
+	{
+		"en"	"You are not allowed to late load into a match."
+	}
+
+	//Replies
+	"current owner"
+	{
+		"#format"	"{1:s}"
+		"en"	"Current Owner: {H1}{1}"
+	}
+
+	"colors reloaded"
+	{
+		"en"	"Colors have been reloaded."
+	}
+
+	"usage set role"
+	{
+		"#format"	"{1:s}"
+		"en"	"Usage: {H2}{1} {H1}<target> <role>"
+	}
+
+	"target not found"
+	{
+		"#format"	"{1:s}"
+		"en"	"Target {H1}{1} {default}not found, please try again."
+	}
+
+	"usage set owner"
+	{
+		"#format"	"{1:s}"
+		"en"	"Usage: {H2}{1} {H1}<target>"
+	}
+
+	"no active game owner"
+	{
+		"en"	"There currently isn't an active game owner."	
+	}
+
+	"target not ingame"
+	{
+		"#format"	"{1:N}"
+		"en"	"Target {H1}{1} {default}is not available, please try again."
+	}
+
+	"target not alive"
+	{
+		"#format"	"{1:N}"
+		"en"	"Target {H1}{1} {default}is not alive, please try again."
+	}
+
+	"marks saved"
+	{
+		"#format"	"{1:s}"
+		"en"	"Marks for map {H1}{1} {default}has been saved."
+	}
+
+	"usage give task"
+	{
+		"#format"	"{1:s}"
+		"en"	"Usage: {H2}{1} {H1}<target> <task>"
+	}
+
+	"invalid task specified"
+	{
+		"en"	"Invalid task specified, please try again."
+	}
+
+	"task assigned admin"
+	{
+		"#format"	"{1:s},{2:N}"
+		"en"	"You have assigned task {H1}{1} {default} to {H2}{2}{default}."
+	}
+}
